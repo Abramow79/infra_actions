@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse(
-        'У меня получилось! Ура! Я уже почти супер-пупер программист!!!!!!!'
+        'У меня получилось! Ура! Я уже почти супер-пупер программист! Ха-ха!'
     )
 
 

@@ -73,7 +73,7 @@ jobs:
         host: ${{ secrets.HOST }}
         # host: 158.160.59.134
         username: ${{ secrets.USER }}
-        username: aap_32
+        # username: aap_32
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
         # passphrase: 291203
